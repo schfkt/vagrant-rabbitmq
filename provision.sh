@@ -11,7 +11,7 @@ apt-get install -q -y htop vim curl wget
 apt-get install -q -y rabbitmq-server
 
 #permission for guest
-sudo cp /vagrant/rabbitmq.config /etc/rabbitmq/
+cp /vagrant/rabbitmq.config /etc/rabbitmq/
 
 # RabbitMQ Plugins
 service rabbitmq-server stop
